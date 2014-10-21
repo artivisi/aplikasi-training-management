@@ -72,8 +72,7 @@ Dalam membuat aplikasi, semakin besar aplikasi, semakin kecil porsi codingnya. D
 
 ## Closing ##
 
-* demikianlah tahap-tahap pembuatan aplikasi
-* pada episode ini, kita juga sudah belajar analisa requirement
+* pada episode pertama ini, kita juga sudah belajar analisa requirement
 * requirement ini bersifat technology-independent, artinya bisa diimplement menggunakan teknologi apa saja
 * oleh sebab itu, adalah suatu hal yang lazim requirement dan implementasi dilakukan oleh dua perusahaan yang berbeda. Perusahaan pertama membuatkan requirement sampai UI mockup, perusahaan kedua melakukan construction untuk membuat aplikasinya.
 * pada tahap berikutnya, yaitu desain, kita baru akan melakukan pemilihan teknologi untuk membuat implementasi dari requirement ini
