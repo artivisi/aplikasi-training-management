@@ -79,4 +79,3 @@ Dalam membuat aplikasi, semakin besar aplikasi, semakin kecil porsi codingnya. D
 * pada tahap berikutnya, yaitu desain, kita baru akan melakukan pemilihan teknologi untuk membuat implementasi dari requirement ini
 * Pemilihan teknologi juga belum tentu dilakukan oleh perusahaan yang melakukan implementasi. Bisa jadi teknologinya sudah ditentukan oleh client, agar seragam dengan aplikasi dia yang lainnya.
 * client atau end user biasanya tidak peduli teknologi apa yang digunakan, yang penting aplikasinya bisa dipakai dengan baik
-* 
