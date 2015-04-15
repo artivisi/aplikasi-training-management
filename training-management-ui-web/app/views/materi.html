@@ -1,1 +1,83 @@
-<p>This is the materi view.</p>
+<h1>Cari Materi</h1>
+<form class="form-horizontal">
+    <div class="form-group"><label  class="col-sm-3">Kategori </label>
+        
+<div class="col-lg-9">
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="...">
+        <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class="caret"></span></button>
+            <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                <li><a href="#">Programming</a></li>
+                <li><a href="#">Java</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+            </ul>
+        </div><!-- /btn-group -->
+        </div><!-- /input-group -->
+</div><!-- /.col-lg-6 -->
+    </div>
+    
+    
+
+    <div class="form-group"><label  class="col-sm-3">Nama </label>
+        <div class="col-sm-9">
+            <input type="text" class="form-control" ng-model="currentKelas.nama" placeholder="">
+        </div>
+    </div>
+    
+   
+        
+        <div class="form-group"><label  class="col-sm-3"></label>
+        <div class="col-sm-3">
+             <button type="submit" class="btn btn-default">Cari</button>
+        </div>
+        </div>
+    
+    <br>
+    <br>
+    
+    <div>
+        <h3>Hasil Pencarian</h3>
+        <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th class="danger" style="text-align:center"><input type="checkbox"></th>    
+        <th class="danger">Materi</th>
+        <th class="danger">Durasi</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:center"><input type="checkbox"></td> 
+        <td>Git</td>
+        <td>8 Jam</td>
+      </tr>
+       <tr>
+        <td style="text-align:center"><input type="checkbox"></td> 
+        <td>Maven</td>
+        <td>4 Jam</td>
+      </tr>
+      <tr>
+        <td style="text-align:center"><input type="checkbox"></td> 
+        <td>Autometed Testing</td>
+        <td>4 Jam</td>
+      </tr>
+        <tr>
+        <td style="text-align:center"><input type="checkbox"></td> 
+        <td>Java Fundamental</td>
+        <td>16 Jam</td>
+        </tr>
+        </tr>
+        <tr>
+        <td style="text-align:center"><input type="checkbox"></td> 
+        <td>Java Fundamental</td>
+        <td>16 Jam</td>
+        </tr>
+    </tbody>
+  </table>
+    </div>
+    
+ 
+    </form>
